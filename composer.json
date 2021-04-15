@@ -1,8 +1,8 @@
 {
-    "name": "cubequence/template",
-    "description": "PACKAGE_DESCRIPTION",
+    "name": "cubequence/db",
+    "description": "Database handling for CubeQuence",
     "keywords": [
-        "PACKAGE_TAG",
+        "database",
         "cubequence"
     ],
     "license": "MIT",
@@ -13,9 +13,13 @@
         }
     ],
     "require": {
-        "php": ">=8.0.0"
+        "php": ">=8.0.0",
+        "catfan/medoo": "^1.7",
+        "cubequence/helpers": "^1.0",
+        "robmorgan/phinx": "^0.12.6"
     },
     "require-dev": {
+        "fakerphp/faker": "^1.14",
         "nunomaduro/phpinsights": "dev-master",
         "pestphp/pest": "^1.0"
     },
@@ -27,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "CQ\\Template\\": "src/Template"
+            "CQ\\DB\\": "src/DB"
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "support": {
-        "issues": "https://github.com/CubeQuence/Template/issues",
-        "source": "https://github.com/CubeQuence/Template"
+        "issues": "https://github.com/CubeQuence/db/issues",
+        "source": "https://github.com/CubeQuence/db"
     }
 }
