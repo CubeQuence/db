@@ -406,16 +406,16 @@
         },
         {
             "name": "cubequence/helpers",
-            "version": "v1.0.1",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CubeQuence/helpers.git",
-                "reference": "9e687661ad58da6a11dbfe2f468ebb2d293060e3"
+                "reference": "27ef825c66679aac8cc76ff059e1dee810c4337a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CubeQuence/helpers/zipball/9e687661ad58da6a11dbfe2f468ebb2d293060e3",
-                "reference": "9e687661ad58da6a11dbfe2f468ebb2d293060e3",
+                "url": "https://api.github.com/repos/CubeQuence/helpers/zipball/27ef825c66679aac8cc76ff059e1dee810c4337a",
+                "reference": "27ef825c66679aac8cc76ff059e1dee810c4337a",
                 "shasum": ""
             },
             "require": {
@@ -456,7 +456,7 @@
                 "issues": "https://github.com/CubeQuence/helpers/issues",
                 "source": "https://github.com/CubeQuence/helpers"
             },
-            "time": "2021-04-15T09:52:50+00:00"
+            "time": "2021-04-22T14:20:21+00:00"
         },
         {
             "name": "cubequence/oauth",
@@ -1086,22 +1086,22 @@
         },
         {
             "name": "paragonie/halite",
-            "version": "v4.7.1",
+            "version": "v4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/halite.git",
-                "reference": "538a0579e86ac8222973be55d17615a7be8f29cb"
+                "reference": "7596d5cb25154092b524c34cb9ce2201db612ffc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/halite/zipball/538a0579e86ac8222973be55d17615a7be8f29cb",
-                "reference": "538a0579e86ac8222973be55d17615a7be8f29cb",
+                "url": "https://api.github.com/repos/paragonie/halite/zipball/7596d5cb25154092b524c34cb9ce2201db612ffc",
+                "reference": "7596d5cb25154092b524c34cb9ce2201db612ffc",
                 "shasum": ""
             },
             "require": {
                 "paragonie/constant_time_encoding": "^2",
                 "paragonie/hidden-string": "^1|^2",
-                "paragonie/sodium_compat": "^1.14",
+                "paragonie/sodium_compat": "^1.15",
                 "php": "^7.2|^8"
             },
             "require-dev": {
@@ -1150,9 +1150,9 @@
             "support": {
                 "docs": "https://github.com/paragonie/halite/tree/master/doc",
                 "issues": "https://github.com/paragonie/halite/issues",
-                "source": "https://github.com/paragonie/halite/tree/v4.7.1"
+                "source": "https://github.com/paragonie/halite/tree/v4.8.0"
             },
-            "time": "2020-12-06T15:18:22+00:00"
+            "time": "2021-04-18T19:24:56+00:00"
         },
         {
             "name": "paragonie/hidden-string",
@@ -1259,16 +1259,16 @@
         },
         {
             "name": "paragonie/sodium_compat",
-            "version": "v1.15.3",
+            "version": "v1.15.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "69ac8357b0b5916e997226143a401ce2c09f5585"
+                "reference": "8a93bfe047c7f699f819459de8ddda144cd636a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/69ac8357b0b5916e997226143a401ce2c09f5585",
-                "reference": "69ac8357b0b5916e997226143a401ce2c09f5585",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/8a93bfe047c7f699f819459de8ddda144cd636a4",
+                "reference": "8a93bfe047c7f699f819459de8ddda144cd636a4",
                 "shasum": ""
             },
             "require": {
@@ -1339,9 +1339,9 @@
             ],
             "support": {
                 "issues": "https://github.com/paragonie/sodium_compat/issues",
-                "source": "https://github.com/paragonie/sodium_compat/tree/v1.15.3"
+                "source": "https://github.com/paragonie/sodium_compat/tree/v1.15.4"
             },
-            "time": "2021-04-14T21:40:16+00:00"
+            "time": "2021-04-17T09:00:05+00:00"
         },
         {
             "name": "phpoption/phpoption",
