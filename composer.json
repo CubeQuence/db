@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=8.0.0",
-        "catfan/medoo": "^1.7",
+        "catfan/medoo": "^2.0",
         "cubequence/helpers": "^1.0",
         "robmorgan/phinx": "^0.12.6"
     },
