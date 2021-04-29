@@ -16,10 +16,10 @@
         "php": ">=8.0.0",
         "catfan/medoo": "^2.0",
         "cubequence/helpers": "^1.0",
-        "robmorgan/phinx": "^0.12.6"
+        "robmorgan/phinx": "^0.12.6",
+        "fakerphp/faker": "^1.14"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.14",
         "nunomaduro/phpinsights": "dev-master",
         "pestphp/pest": "^1.0"
     },
