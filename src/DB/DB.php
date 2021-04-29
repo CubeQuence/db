@@ -18,14 +18,14 @@ final class DB
     private function __construct()
     {
         self::$client = new Medoo([
-            'database_type' => 'mysql',
-            'server' => ConfigHelper::get(
+            'type' => 'mysql',
+            'host' => ConfigHelper::get(
                 key: 'database.host'
             ),
             'port' => ConfigHelper::get(
                 key: 'database.port'
             ),
-            'database_name' => ConfigHelper::get(
+            'database' => ConfigHelper::get(
                 key: 'database.database'
             ),
             'username' => ConfigHelper::get(
